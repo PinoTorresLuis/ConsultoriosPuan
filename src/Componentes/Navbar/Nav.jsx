@@ -9,10 +9,10 @@ const Nav = () => {
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
 
-  window.addEventListener("scroll", function(){
-    let showNav = document.querySelector(".navbar-nav");
-    showNav.classList.toggle("container_show_nav",window.scrollY> 100 && window.scrollY < 2000);
-  })
+  // window.addEventListener("scroll", function(){
+  //   let showNav = document.querySelector(".navbar-nav");
+  //   showNav.classList.toggle("container_show_nav",window.scrollY> 100 && window.scrollY < 2000);
+  // })
 
   return (
     <nav>
