@@ -7,7 +7,7 @@ const Article = () => {
     <div class="container-article">
       <h4 class="articulo-titulo"><a name="tratamientos">TRATAMIENTOS</a></h4> 
           {/* ITEM 1 */}
-            <div class="container-items" id="btnArt">
+            <div class="container-items">
                 <img class="item-imagen" src= {Diente} alt=""/>
                 <h1 class="item-h">Implantes</h1>
                 <p class="item-p">Por medio de implantes dentales logramos el reemplazo de una o varias piezas dentales faltantes. Plan de financiación a tu medida.</p>
@@ -22,7 +22,7 @@ const Article = () => {
             <div class="container-items">
             <img class="item-imagen" src= {Diente} alt=""/>
             <h1 class="item-h">Estética Dental</h1>
-            <p class="item-p">Devolvemos una apariencia natural a tus elementos dentarios, cuidando cada aspecto estético de tu boca.</p>
+            <p class="item-p">Devolvemos una apariencia natural a tus elementos dentarios, cuidando cada aspecto estético de tu boca al máximo.</p>
             </div>
         {/* ITEM 4  */}
           <div class="container-items">

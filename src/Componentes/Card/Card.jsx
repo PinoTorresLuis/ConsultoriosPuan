@@ -12,6 +12,9 @@ const Card = () => {
      <Carousel.Item>
                  <img className="img-section" src= {Img}/>
     </Carousel.Item>   
+     <Carousel.Item>
+                 <img className="img-section" src= 'https://www.portalodontologos.mx/noticias/noticias/interna-ortodoncia-calidad-vida.jpg'/>
+    </Carousel.Item>   
     </Carousel> 
   </div>
   )
