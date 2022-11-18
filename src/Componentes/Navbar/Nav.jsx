@@ -11,7 +11,7 @@ const Nav = () => {
 
   // window.addEventListener("scroll", function(){
   //   let showNav = document.querySelector(".navbar-nav");
-  //   showNav.classList.toggle("container_show_nav",window.scrollY> 100 && window.scrollY < 2000);
+  //   showNav.classList.toggle("container_show_nav",window.scrollY> 500 && window.scrollY < 2000);
   // })
 
   return (

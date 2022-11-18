@@ -33,13 +33,13 @@ const Article = () => {
         {/* ITEM 5 */}
           <div class="container-items">
           <img class="item-imagen" src= {Diente} alt=""/>
-          <h1 class="item-h">Odontopediatria</h1>
+          <h1 class="item-h">Laboratorio</h1>
           <p class="item-p">Especialistas preparados para la atención y contención de los más pequeños.</p>
           </div>
         {/* ITEM 6 */}
           <div class="container-items">
           <img class="item-imagen" src= {Diente} alt=""/>
-          <h1 class="item-h">Urgencias</h1>
+          <h1 class="item-h">Prótesis</h1>
           <p class="item-p">Estamos en esas situaciones inesperadas cuando necesitas una solución inmediata.</p>
           </div>
   </div>

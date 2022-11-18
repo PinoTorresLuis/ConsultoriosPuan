@@ -14,20 +14,20 @@ const Header = () => {
     <div class="container-header">
         <div class="header-box">
           <div>
-          <img class="img-header" src={WP}/>
+          <a className='a_link' href="https://wa.me/5491162422053?text=Hola%20necesito%20información%20.%20Gracias!"><img class="img-header" src={WP}/></a>
         </div>  
-          <i><a class="header-a" href="#">Saca turno via Whatsapp</a></i>
+          <i><a class="header-a" href="https://wa.me/5491162422053?text=Hola%20necesito%20información%20.%20Gracias!">Saca turno via Whatsapp</a></i>
         </div>
         <div class="header-box">
         <div> 
-          <img class="img-header" src={IG}/>
+        <a className='a_link' href="https://www.instagram.com/puandental_odontologia/"><img class="img-header" src={IG}/></a>
         </div>
-          <i><a class="header-a" href="#">Entrá y mira nuestro Instagram!</a></i>
+          <i><a class="header-a" href="https://www.instagram.com/puandental_odontologia/">Entrá y mira nuestro Instagram!</a></i>
         </div>
         <div className='container_btn'>
         <ul className='container_show_btn'>
-          <li><a className='a_link' href="https://wa.me/+34635282005?texto=Hola%20IT%20Work%20necesito%20información"><img className='btn_active' src={WP}/></a></li>
-          <li><a className='a_link' href="https://wa.me/+34635282005?texto=Hola%20IT%20Work%20necesito%20información"><img className='btn_active' src={IG}/></a></li>
+          <li><a className='a_link' href="https://wa.me/5491162422053?text=Hola%20necesito%20información%20.%20Gracias!"><img className='btn_active' src={WP}/></a></li>
+          <li><a className='a_link' href="https://www.instagram.com/puandental_odontologia/"><img className='btn_active' src={IG}/></a></li>
         </ul>
         </div>
     </div>
