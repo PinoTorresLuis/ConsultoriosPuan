@@ -33,14 +33,14 @@ const Article = () => {
         {/* ITEM 5 */}
           <div class="container-items" data-aos="fade-down">
           <img class="item-imagen" src= {Diente} alt=""/>
-          <h1 class="item-h">Laboratorio</h1>
-          <p class="item-p">Especialistas preparados para la atención y contención de los más pequeños.</p>
+          <h1 class="item-h">Laboratorio Propio</h1>
+          <p class="item-p">Ofrecemos mayor agilidad, trabajos de alta calidad con tecnología CAD/CAM y precios más accesibles.</p>
           </div>
         {/* ITEM 6 */}
           <div class="container-items" data-aos="fade-down">
           <img class="item-imagen" src= {Diente} alt=""/>
           <h1 class="item-h">Prótesis</h1>
-          <p class="item-p">Estamos en esas situaciones inesperadas cuando necesitas una solución inmediata.</p>
+          <p class="item-p">Permite sustituir a los dientes y otras estructuras orales como (encías y hueso) mejorando de forma estética, incluso el tono de voz y permitiendo degustar mejor los alimentos debido a que se pueden masticar de mejor forma.</p>
           </div>
   </div>
   </article>
