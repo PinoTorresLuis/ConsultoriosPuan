@@ -15,18 +15,24 @@ const Footer = () => {
   </div>
     <div class="items-footer">
       <div class="item-footer">
+        <div data-aos="fade-rigth">
         <img class="icono-footer" src= {MP} alt=""/>
         <p class="footer-texto">Mercado Pago</p>
+        </div>
       </div>
       <div class="item-footer-xs">
+        <div data-aos="fade-up">
         <img class="icono-footer" src= {VISA} alt=""/>
         <img class="icono-footer" src= {AE} alt=""/>
         <img class="icono-footer" src= {Maestro} alt=""/>
         <p class="footer-texto">Tarjetas de débito/crédito</p>
+        </div>
       </div>
       <div class="item-footer">
+        <div data-aos="fade-left">
         <img class="icono-footer" src= {TB} alt=""/>
         <p class="footer-texto">Transferencia Bancaria</p>
+        </div>
       </div>
     </div>
     </div>
