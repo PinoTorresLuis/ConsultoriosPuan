@@ -10,7 +10,7 @@ const Card = () => {
     <h2 className="titulo-section"><a name="galeria">GALERIA</a></h2>
      <Carousel fade>
      <Carousel.Item>
-                 <img className="img-section" src= {Img}/>
+                 <img className="img-section" src={Img}/>
     </Carousel.Item>   
      <Carousel.Item>
                  <img className="img-section" src= 'https://www.portalodontologos.mx/noticias/noticias/interna-ortodoncia-calidad-vida.jpg'/>

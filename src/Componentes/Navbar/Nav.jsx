@@ -9,15 +9,16 @@ const Nav = () => {
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
 
-  // window.addEventListener("scroll", function(){
-  //   let showNav = document.querySelector(".navbar-nav");
-  //   showNav.classList.toggle("container_show_nav",window.scrollY> 500 && window.scrollY < 2000);
-  // })
+  window.addEventListener("scroll", function(){
+    let showNav = document.querySelector(".navbar_collapse");
+    showNav.classList.toggle("container_show_nav",window.scrollY> 600 && window.scrollY < 2000);
+  })
 
   return (
     <nav>
       <div className="container-navegador">
-        <div className="navbar-nav">        
+        <div className="navbar-nav">
+        <div className='navbar_collapse'>          
         <div className="imagen-logo">
          <a href="index.html"><img className="imgNav" src= {LogoTipo4}/></a> 
          <h1 className="titulo-navbar">DENTAL <b className="negrita-titulo">PUÁN</b></h1>    
@@ -44,8 +45,9 @@ const Nav = () => {
 
           <div className="container-nav">
             <h5 className="titulo-navbar-item">Llamanos</h5>
-            <p className="nav-numero">01122592717</p> 
+            <p className="nav-numero">1162422053</p> 
           </div>
+        </div>
         </div>
         </div>
       </div>

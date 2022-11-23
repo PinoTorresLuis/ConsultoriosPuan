@@ -18,3 +18,21 @@
     
    
 }
+
+@media (max-width:576px) {
+    .container-section{
+    .img-section{
+        height: 20rem;
+    }
+}
+}
+
+
+
+@media (max-width:376px) {
+    .container-section{
+    .img-section{
+       height: 15rem;
+    }
+}
+}
