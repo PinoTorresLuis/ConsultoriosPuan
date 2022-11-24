@@ -6,7 +6,7 @@ const Header = () => {
 
   window.addEventListener("scroll", function(){
     let showBtn = document.querySelector(".container_btn");
-    showBtn.classList.toggle("container_show_btn",window.scrollY> 100 && window.scrollY < 2000);
+    showBtn.classList.toggle("container_show_btn",window.scrollY> 300 && window.scrollY < 2000);
   })
 
   return (

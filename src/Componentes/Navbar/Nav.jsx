@@ -10,7 +10,7 @@ const Nav = () => {
   const handleShow = () => setShow(true);
 
   window.addEventListener("scroll", function(){
-    let showNav = document.querySelector(".navbar_collapse");
+    let showNav = document.querySelector(".navbar-fixed");
     showNav.classList.toggle("container_show_nav",window.scrollY> 600 && window.scrollY < 2000);
   })
 
@@ -30,7 +30,7 @@ const Nav = () => {
         <i onClick={handleClose}><FontAwesomeIcon className="fa-solid"  icon= {faXmark}/></i>
         }
         </div>    
-        <div className={show === false ? "menu-navbar" : "collapse-navbar"}>
+        <div className={show === true ? "menu-navbar" : "collapse-navbar"}>
           <div className="container-nav">
               <li className="nav-item"><a className="nav-link-item" href="#tratamientos">Tratamientos</a></li>
               <li className="nav-item"><a className="nav-link-item" href="#galeria">Galeria</a></li>
