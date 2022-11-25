@@ -20,14 +20,14 @@ const Header = () => {
         </div>
         <div class="header-box">
         <div> 
-        <a className='a_link' href="https://www.instagram.com/puandental_odontologia/"><img class="img-header" src={IG}/></a>
+        <a className='a_link' href="https://www.instagram.com/dental_puan/"><img class="img-header" src={IG}/></a>
         </div>
-          <i><a class="header-a" href="https://www.instagram.com/puandental_odontologia/">Entrá y mira nuestro Instagram!</a></i>
+          <i><a class="header-a" href="https://www.instagram.com/dental_puan/">Entrá y mira nuestro Instagram!</a></i>
         </div>
         <div className='container_btn'>
         <ul className='container_show_btn'>
           <li><a className='a_link' href="https://wa.me/5491162422053?text=Hola%20necesito%20información%20.%20Gracias!"><img className='btn_active' src={WP}/></a></li>
-          <li><a className='a_link' href="https://www.instagram.com/puandental_odontologia/"><img className='btn_active' src={IG}/></a></li>
+          <li><a className='a_link' href="https://www.instagram.com/dental_puan/"><img className='btn_active' src={IG}/></a></li>
         </ul>
         </div>
     </div>
