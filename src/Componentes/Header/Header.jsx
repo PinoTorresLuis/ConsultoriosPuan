@@ -16,13 +16,13 @@ const Header = () => {
           <div>
           <a className='a_link' href="https://wa.me/5491162422053?text=Hola%20necesito%20información%20.%20Gracias!"><img class="img-header" src={WP}/></a>
         </div>  
-          <i><a class="header-a" href="https://wa.me/5491162422053?text=Hola%20necesito%20información%20.%20Gracias!">Saca turno via Whatsapp</a></i>
+          <i><a class="header-a" href="https://wa.me/5491162422053?text=Hola%20necesito%20información%20.%20Gracias!">Sacá turno vía Whatsapp</a></i>
         </div>
         <div class="header-box">
         <div> 
         <a className='a_link' href="https://www.instagram.com/dental_puan/"><img class="img-header" src={IG}/></a>
         </div>
-          <i><a class="header-a" href="https://www.instagram.com/dental_puan/">Entrá y mira nuestro Instagram!</a></i>
+          <i><a class="header-a" href="https://www.instagram.com/dental_puan/">Entrá y mirá nuestro Instagram</a></i>
         </div>
         <div className='container_btn'>
         <ul className='container_show_btn'>
