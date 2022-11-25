@@ -10,7 +10,7 @@ const Footer = () => {
     <footer>
     <div class="container-footer">
     <div>
-    <h2 class="footer-titulo"><a name="pagos"></a>USÁ EL MEDIO DE PAGO QUE PREFIERAS</h2>
+    <h2 class="footer-titulo"><a name="pagos"></a>USA EL MEDIO DE PAGO QUE PREFIERAS</h2>
     <p class="footer-subtitulo">ACEPTAMOS TODAS LAS TARJETAS</p>   
   </div>
     <div class="items-footer">
