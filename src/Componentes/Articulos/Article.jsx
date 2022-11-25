@@ -25,19 +25,19 @@ const Article = () => {
             <p class="item-p">Devolvemos una apariencia natural a tus elementos dentarios, cuidando cada aspecto estético de tu boca al máximo.</p>
             </div>
         {/* ITEM 4  */}
-          <div class="container-items" data-aos="fade-down">
+          <div class="container-items" data-aos="fade-up">
           <img class="item-imagen" src= {Diente} alt=""/>
           <h1 class="item-h">Endodoncia</h1>
           <p class="item-p">Tratamos las enfermedades que ocurren en el tejido más interno del diente y la pulpa.</p>
           </div>
         {/* ITEM 5 */}
-          <div class="container-items" data-aos="fade-down">
+          <div class="container-items" data-aos="fade-up">
           <img class="item-imagen" src= {Diente} alt=""/>
           <h1 class="item-h">Laboratorio Propio</h1>
           <p class="item-p">Ofrecemos mayor agilidad, trabajos de alta calidad con tecnología CAD/CAM y precios más accesibles.</p>
           </div>
         {/* ITEM 6 */}
-          <div class="container-items" data-aos="fade-down">
+          <div class="container-items" data-aos="fade-up">
           <img class="item-imagen" src= {Diente} alt=""/>
           <h1 class="item-h">Prótesis</h1>
           <p class="item-p">Permite sustituir a los dientes y otras estructuras orales como (encías y hueso) mejorando de forma estética, incluso el tono de voz y permitiendo degustar mejor los alimentos debido a que se pueden masticar de mejor forma.</p>
