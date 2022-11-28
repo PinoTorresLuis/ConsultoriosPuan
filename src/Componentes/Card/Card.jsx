@@ -9,7 +9,7 @@ import Galeria2 from '../../assets/galeria2.png'
 const Card = () => {
   return (
     <div className="container-section" id="galeria">
-    <h2 className="titulo-section"><a name="galeria">GALERIA</a></h2>
+    <h2 className="titulo-section"><a name="galeria">NUESTROS TRABAJOS</a></h2>
      <Carousel fade>
      <Carousel.Item>
                  <img className="img-section" src={Galeria2}/>

@@ -10,14 +10,14 @@ const Nav = () => {
   const handleShow = () => setShow(true);
 
   window.addEventListener("scroll", function(){
-    let showNav = document.querySelector(".navbar-fixed");
-    showNav.classList.toggle("container_show_nav",window.scrollY> 600 && window.scrollY < 2000);
+    let showNav = document.querySelector(".navbar_collapse");
+    showNav.classList.toggle("container_show_nav",window.scrollY> 560 && window.innerWidth > 976);
   })
 
   return (
     <nav>
-      <div className="container-navegador">
-        <div className="navbar-nav">
+    <div className="container-navegador">
+      <div className="navbar-nav">
         <div className='navbar_collapse'>          
         <div className="imagen-logo">
          <a href="index.html"><img className="imgNav" src= {LogoTipo4}/></a> 

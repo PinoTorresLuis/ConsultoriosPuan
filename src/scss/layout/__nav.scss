@@ -6,14 +6,14 @@
     flex-direction: column;
     width: 100%;
     position: relative;
-    padding: 10px;
-    overflow: hidden;
-
+    padding: 0.625rem;
+   
      .navbar-nav{
      height: 90%;
      width: 100%;
      display: flex;
      flex-direction: column;
+
 
 
     .imagen-logo{
@@ -96,11 +96,8 @@
     position: fixed;
     flex-direction: column;
     left: 10px;
-    transition: all 0.5s ease;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-    text-align: center;
+ 
+   
 }
 
 
@@ -139,9 +136,9 @@
     }
     
 }
-.container_show_nav {
-   display: none;
-   visibility: hidden;
-   
+
+.container_show_nav{
+   background-color: red; 
+
 }
 }

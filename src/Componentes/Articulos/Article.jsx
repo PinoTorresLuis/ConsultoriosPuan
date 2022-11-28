@@ -10,13 +10,13 @@ const Article = () => {
             <div class="container-items" data-aos="fade-up">
                 <img class="item-imagen" src= {Diente} alt=""/>
                 <h1 class="item-h">Implantes</h1>
-                <p class="item-p">Por medio de implantes dentales logramos el reemplazo de una o varias piezas dentales faltantes. Plan de financiación a tu medida.</p>
+                <p class="item-p">Por medio de implantes dentales logramos el reemplazo de una o varias piezas dentales faltantes.</p>
             </div>
             {/* ITEM 2 */}
             <div class="container-items" data-aos="fade-up">
               <img class="item-imagen" src= {Diente} alt=""/>
               <h1 class="item-h">Ortodoncia</h1>
-              <p class="item-p">Logramos funcionalidad adecuada y estética buco-facial. Tratamientos tradicional, estético, lingual, invisible.</p>
+              <p class="item-p">Logramos funcionalidad adecuada y estética buco-facial. Tratamientos tradicional, estético,invisible.</p>
             </div>
            {/* ITEM 3 */}
             <div class="container-items" data-aos="fade-up">
