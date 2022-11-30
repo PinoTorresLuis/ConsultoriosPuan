@@ -8,7 +8,7 @@ const Main = () => {
       <div class="container-main-flex">                     
           <img class="capa-imagen" src= {LogoDentista} data-aos="fade-rigth" />
         <div class="capa-texto" data-aos="fade-left">
-          <p class="texto-main">Desde rehabilitación Odontologica y resolución de urgencias en el día hasta lo último en procedimientos dentales estéticos, Dental Púan ofrece una gama completa de servicios dentales realizados por profesionales altamente calificados, siguiendo los más altos estándares de calidad, seguridad e higiene,en cómodas y modernas instalaciones dentales ubicadas en Caseros.</p>
+          <p class="texto-main">En Dental Puán ofrecemos rehabilitación odontologica, resolución de emergencias en el día y una gama completa de servicios dentales realizados por profesionales altamente calificados, siguiendo los más altos estándares de calidad, seguridad e higiene para brindarte la mejor experiencia en todas sus especialidades, a precios razonables.</p>
         </div>              
       </div>    
     </div>            
